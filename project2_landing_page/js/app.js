@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navbar.appendChild(listItem);
     });
 
-
+// Function to add or remove the "active" class for the selected section and navigation link
     function actSections(index) {
         sections.forEach((section, i) => {
             const link = navbar.querySelector(`a[data-index="${i}"]`);
@@ -54,8 +54,9 @@ document.addEventListener('DOMContentLoaded', function () {
         actSections(activeIndex);
     }
 
-
+    
     var debounceTime;
+    //Add handling for scroll event
     window.addEventListener('scroll', function () {
         if (debounceTime) {
             clearTimeout(debounceTime);
