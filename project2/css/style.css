@@ -1,0 +1,195 @@
+body {
+    font-family: 'Young Serif', serif;
+    background-color: #4682B4;
+    overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: yellow;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a.active {
+    color: #ff5733;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    height: 700px;
+    width: 100%;
+
+}
+
+h2 {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.column1,
+.column3 {
+    float: left;
+    width: 48%;
+    left: 50px;
+    position: absolute;
+}
+
+.column2,
+.column4 {
+    float: right;
+    right: 10px;
+    position: absolute;
+    width: 48%;
+
+}
+
+.left-img {
+    left: 30px;
+    position: absolute;
+    width: 80%
+}
+
+.right-img {
+    float: right;
+    right: 50px;
+    position: absolute;
+    width: 48%
+}
+
+article img {
+    left: 0px;
+    position: absolute;
+    width: 48%;
+    height: 700px;
+    left: 0px;
+    position: absolute;
+    width: 48%"
+
+}
+
+.right-img img {
+    width: 900px;
+    height: auto;
+    left: 50px;
+    position: absolute;
+}
+
+.content {
+    width: 600px;
+    text-align: center;
+}
+
+#section2,
+#section4 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+    color: white;
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.custom-icon-size {
+    font-size: 35px;
+    margin: 15px;
+}
+
+.center-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    top: 0px;
+    position: relative;
+}
+
+.fa-facebook {
+    color: #1877f2;
+}
+
+.fa-instagram {
+    color: #E4405F;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.no-underline-change {
+    color: inherit;
+    text-decoration: none;
+}
+
+figcaption {
+    color: white;
+}
+
+.custom-hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+}
